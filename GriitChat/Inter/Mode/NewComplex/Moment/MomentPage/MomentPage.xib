@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Light</string>
+            <string>AppleSDGothicNeo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MomentPage" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="J5V-kC-dae" id="xfb-uE-A4I"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="rKx-BU-avC"/>
+                <outlet property="lblEmpty1" destination="BgC-vI-V4Q" id="iSq-xt-OLc"/>
+                <outlet property="lblEmpty2" destination="WiO-FE-seS" id="QQt-G5-vpR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgC-vI-V4Q">
+                    <rect key="frame" x="100.5" y="330" width="174" height="27"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No moments yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xiw-Hz-uEn">
+                            <rect key="frame" x="45" y="2.5" width="129" height="22"/>
+                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MomentIcon" translatesAutoresizingMaskIntoConstraints="NO" id="kk6-Ow-PuM">
+                            <rect key="frame" x="0.0" y="0.5" width="35" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="kk6-Ow-PuM" secondAttribute="height" multiplier="9:7" id="qJp-AZ-gHI"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="kk6-Ow-PuM" firstAttribute="centerY" secondItem="BgC-vI-V4Q" secondAttribute="centerY" id="HNn-fX-Ce7"/>
+                        <constraint firstItem="kk6-Ow-PuM" firstAttribute="height" secondItem="BgC-vI-V4Q" secondAttribute="height" id="Lai-Vr-4uY"/>
+                        <constraint firstItem="xiw-Hz-uEn" firstAttribute="centerY" secondItem="BgC-vI-V4Q" secondAttribute="centerY" id="OPD-Px-vaQ"/>
+                        <constraint firstAttribute="trailing" secondItem="xiw-Hz-uEn" secondAttribute="trailing" id="TPB-qD-wlk"/>
+                        <constraint firstItem="kk6-Ow-PuM" firstAttribute="leading" secondItem="BgC-vI-V4Q" secondAttribute="leading" id="VAh-wd-Lyd"/>
+                        <constraint firstItem="xiw-Hz-uEn" firstAttribute="leading" secondItem="kk6-Ow-PuM" secondAttribute="trailing" constant="10" id="sfa-UW-D9Y"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="J5V-kC-dae">
+                    <rect key="frame" x="-2" y="0.0" width="379" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f9Z-4e-Rke">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiO-FE-seS">
+                    <rect key="frame" x="79.5" y="377" width="216" height="44"/>
+                    <string key="text">All the moments
+will disappear within 11 hours</string>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="18"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.70588235290000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="J5V-kC-dae" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="-2" id="6c5-pF-4pR"/>
+                <constraint firstItem="J5V-kC-dae" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="I1o-Lg-vBN"/>
+                <constraint firstItem="WiO-FE-seS" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="KKl-mY-Cc1"/>
+                <constraint firstItem="BgC-vI-V4Q" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="Q6d-D3-09e"/>
+                <constraint firstItem="WiO-FE-seS" firstAttribute="top" secondItem="BgC-vI-V4Q" secondAttribute="bottom" constant="20" id="gHX-fp-cje"/>
+                <constraint firstItem="BgC-vI-V4Q" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.04" id="nu6-La-NfS"/>
+                <constraint firstItem="J5V-kC-dae" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="2" id="qly-7Q-iWh"/>
+                <constraint firstItem="J5V-kC-dae" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s5O-go-xSt"/>
+                <constraint firstItem="BgC-vI-V4Q" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="vLQ-M9-z1d"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="26.5" y="23.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MomentIcon" width="108" height="84"/>
+    </resources>
+</document>

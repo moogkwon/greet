@@ -1,0 +1,6 @@
+module TrueTime {
+  umbrella header "TrueTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

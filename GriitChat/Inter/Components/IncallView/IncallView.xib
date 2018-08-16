@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IncallView" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="backGradientView" destination="ecW-Hv-Duk" id="oxy-ON-kVR"/>
+                <outlet property="backWhiteView" destination="YDz-ND-kqj" id="uxV-Xc-tSg"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="c4C-dz-Gic"/>
+                <outlet property="imgView" destination="ck7-fC-QGx" id="SXJ-eK-3VR"/>
+                <outlet property="progView" destination="ox7-QL-9xl" id="nq5-jL-kVc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecW-Hv-Duk" customClass="GradientView" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="10" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDz-ND-kqj">
+                    <rect key="frame" x="9" y="165.5" width="356.5" height="356.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YDz-ND-kqj" secondAttribute="height" multiplier="1:1" id="8u9-5q-41R"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="male_female_default" translatesAutoresizingMaskIntoConstraints="NO" id="ck7-fC-QGx">
+                    <rect key="frame" x="18" y="174" width="339" height="339"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ck7-fC-QGx" secondAttribute="height" id="bkP-fC-QSt"/>
+                    </constraints>
+                </imageView>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ox7-QL-9xl" customClass="UICircularProgressRing" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="18" y="174" width="339" height="339"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETX-yx-UEo">
+                    <rect key="frame" x="-0.5" y="10" width="375" height="667"/>
+                    <state key="normal" title=" "/>
+                    <connections>
+                        <action selector="onBtnReceive:" destination="-1" eventType="touchUpInside" id="1gq-nq-Wcb"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ox7-QL-9xl" firstAttribute="centerX" secondItem="ck7-fC-QGx" secondAttribute="centerX" id="43E-kE-U0J"/>
+                <constraint firstItem="ck7-fC-QGx" firstAttribute="centerY" secondItem="YDz-ND-kqj" secondAttribute="centerY" id="5rx-H7-tam"/>
+                <constraint firstItem="ecW-Hv-Duk" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="A1D-jo-N0l"/>
+                <constraint firstItem="ETX-yx-UEo" firstAttribute="centerX" secondItem="ecW-Hv-Duk" secondAttribute="centerX" id="ABm-v8-Jwx"/>
+                <constraint firstItem="ox7-QL-9xl" firstAttribute="height" secondItem="ck7-fC-QGx" secondAttribute="height" id="E4G-To-eyI"/>
+                <constraint firstItem="ETX-yx-UEo" firstAttribute="centerY" secondItem="ecW-Hv-Duk" secondAttribute="centerY" id="RCx-FM-nVn"/>
+                <constraint firstItem="YDz-ND-kqj" firstAttribute="centerX" secondItem="ecW-Hv-Duk" secondAttribute="centerX" id="YPB-Mm-mbv"/>
+                <constraint firstItem="ox7-QL-9xl" firstAttribute="width" secondItem="ck7-fC-QGx" secondAttribute="width" id="bpw-NP-h5f"/>
+                <constraint firstItem="ck7-fC-QGx" firstAttribute="centerX" secondItem="YDz-ND-kqj" secondAttribute="centerX" id="g00-Qn-Cr2"/>
+                <constraint firstItem="ecW-Hv-Duk" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="gsX-mM-h6o"/>
+                <constraint firstItem="ck7-fC-QGx" firstAttribute="width" secondItem="YDz-ND-kqj" secondAttribute="width" multiplier="0.95" id="hBq-qh-XVQ"/>
+                <constraint firstItem="ecW-Hv-Duk" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="iy6-UW-LP2"/>
+                <constraint firstItem="ecW-Hv-Duk" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="lyJ-gp-oS0"/>
+                <constraint firstItem="ETX-yx-UEo" firstAttribute="width" secondItem="ecW-Hv-Duk" secondAttribute="width" id="sgQ-wb-gcO"/>
+                <constraint firstItem="ox7-QL-9xl" firstAttribute="centerY" secondItem="ck7-fC-QGx" secondAttribute="centerY" id="uA2-G5-52e"/>
+                <constraint firstItem="YDz-ND-kqj" firstAttribute="centerY" secondItem="ecW-Hv-Duk" secondAttribute="centerY" id="wRU-tb-MZA"/>
+                <constraint firstItem="ETX-yx-UEo" firstAttribute="height" secondItem="ecW-Hv-Duk" secondAttribute="height" id="xPc-41-t6I"/>
+                <constraint firstItem="YDz-ND-kqj" firstAttribute="width" secondItem="ecW-Hv-Duk" secondAttribute="width" multiplier="0.95" id="xQX-bg-ibz"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="male_female_default" width="191" height="191"/>
+    </resources>
+</document>

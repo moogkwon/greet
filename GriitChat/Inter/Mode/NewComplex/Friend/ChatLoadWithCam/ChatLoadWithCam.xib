@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatLoadWithCam" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="camView" destination="hfR-MN-A3k" id="6bH-WM-ja2"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="l6k-U8-F8Q"/>
+                <outlet property="loadingView" destination="iG8-XS-KO9" id="ggS-81-45a"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-MN-A3k" customClass="CameraView" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iG8-XS-KO9" customClass="LoadingView" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hfR-MN-A3k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="B29-r2-mqp"/>
+                <constraint firstAttribute="bottom" secondItem="iG8-XS-KO9" secondAttribute="bottom" id="BVg-nv-Rjq"/>
+                <constraint firstItem="iG8-XS-KO9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Gsh-4X-6nB"/>
+                <constraint firstItem="iG8-XS-KO9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KZG-W4-UFv"/>
+                <constraint firstItem="hfR-MN-A3k" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="ZdF-Ks-mYs"/>
+                <constraint firstAttribute="trailing" secondItem="iG8-XS-KO9" secondAttribute="trailing" id="svt-mb-weE"/>
+                <constraint firstItem="hfR-MN-A3k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="v9D-09-3do"/>
+                <constraint firstItem="hfR-MN-A3k" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="vVg-2A-N5A"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

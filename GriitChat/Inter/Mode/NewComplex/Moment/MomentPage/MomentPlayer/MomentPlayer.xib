@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MomentPlayer" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="3r3-Xl-H5y"/>
+                <outlet property="profileViewer" destination="hwh-w1-nk8" id="cBe-Po-xEf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOm-Ti-vRe">
+                    <rect key="frame" x="0.0" y="10" width="375" height="44.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kzi-kJ-3wb">
+                            <rect key="frame" x="0.0" y="0.0" width="69" height="44.5"/>
+                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
+                            <inset key="contentEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Back">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="onBtnBack:" destination="-1" eventType="touchUpInside" id="hHv-gS-5HU"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leftBtn" translatesAutoresizingMaskIntoConstraints="NO" id="EDs-JN-qkG">
+                            <rect key="frame" x="12.5" y="11.5" width="13" height="22"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="EDs-JN-qkG" secondAttribute="height" multiplier="4:7" id="mV8-7O-FBj"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmP-37-6X3">
+                            <rect key="frame" x="330.5" y="0.0" width="44.5" height="44.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="hmP-37-6X3" secondAttribute="height" id="fkr-ln-XiF"/>
+                            </constraints>
+                            <connections>
+                                <action selector="onBtnDot:" destination="-1" eventType="touchUpInside" id="gwk-kp-EW0"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dotBtn" translatesAutoresizingMaskIntoConstraints="NO" id="SWI-GE-BTK">
+                            <rect key="frame" x="330.5" y="18.5" width="31.5" height="7.5"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                            </accessibility>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="SWI-GE-BTK" secondAttribute="height" multiplier="29:7" id="7YS-a9-Kcj"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Kzi-kJ-3wb" firstAttribute="leading" secondItem="kOm-Ti-vRe" secondAttribute="leading" id="26L-jp-xFU"/>
+                        <constraint firstItem="EDs-JN-qkG" firstAttribute="centerY" secondItem="kOm-Ti-vRe" secondAttribute="centerY" id="9pV-tg-Kz0"/>
+                        <constraint firstItem="SWI-GE-BTK" firstAttribute="width" secondItem="hmP-37-6X3" secondAttribute="width" multiplier="0.7" id="Ci5-tY-Jha"/>
+                        <constraint firstAttribute="bottom" secondItem="hmP-37-6X3" secondAttribute="bottom" id="Ff6-zK-gNk"/>
+                        <constraint firstItem="EDs-JN-qkG" firstAttribute="height" secondItem="Kzi-kJ-3wb" secondAttribute="height" multiplier="0.5" id="JqM-oZ-sLB"/>
+                        <constraint firstAttribute="trailing" secondItem="hmP-37-6X3" secondAttribute="trailing" id="NyV-6h-lUc"/>
+                        <constraint firstItem="Kzi-kJ-3wb" firstAttribute="height" secondItem="kOm-Ti-vRe" secondAttribute="height" id="Qlx-6A-6L9"/>
+                        <constraint firstItem="SWI-GE-BTK" firstAttribute="leading" secondItem="hmP-37-6X3" secondAttribute="leading" id="TE3-EO-JHq"/>
+                        <constraint firstItem="Kzi-kJ-3wb" firstAttribute="centerY" secondItem="kOm-Ti-vRe" secondAttribute="centerY" id="UaS-La-r6a"/>
+                        <constraint firstItem="hmP-37-6X3" firstAttribute="top" secondItem="kOm-Ti-vRe" secondAttribute="top" id="eeH-yk-YRO"/>
+                        <constraint firstItem="EDs-JN-qkG" firstAttribute="centerX" secondItem="kOm-Ti-vRe" secondAttribute="centerX" multiplier="0.1" id="wrh-TB-7Nk"/>
+                        <constraint firstItem="SWI-GE-BTK" firstAttribute="centerY" secondItem="hmP-37-6X3" secondAttribute="centerY" id="z5M-cE-RMU"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwh-w1-nk8" customClass="ProfileViewer" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="55" width="375" height="572"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RSb-Qu-6XG">
+                    <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.70588235294117641" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RSb-Qu-6XG" firstAttribute="top" secondItem="hwh-w1-nk8" secondAttribute="bottom" id="0IU-0f-yOa"/>
+                <constraint firstItem="hwh-w1-nk8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="2u5-Zh-Hyh"/>
+                <constraint firstItem="RSb-Qu-6XG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="35O-Xp-3Bo"/>
+                <constraint firstItem="kOm-Ti-vRe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3dM-Au-IB0"/>
+                <constraint firstItem="RSb-Qu-6XG" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Gul-wZ-xnc"/>
+                <constraint firstItem="hwh-w1-nk8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Gwr-sl-hpg"/>
+                <constraint firstItem="RSb-Qu-6XG" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.06" id="HRe-17-wiT"/>
+                <constraint firstItem="hwh-w1-nk8" firstAttribute="top" secondItem="kOm-Ti-vRe" secondAttribute="bottom" id="czD-Vr-576"/>
+                <constraint firstItem="kOm-Ti-vRe" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.067" id="hoZ-2s-Op0"/>
+                <constraint firstItem="kOm-Ti-vRe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jhr-fh-aZB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RSb-Qu-6XG" secondAttribute="bottom" id="oSv-ny-f67"/>
+                <constraint firstItem="kOm-Ti-vRe" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="qbl-dc-1xK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="dotBtn" width="116" height="28"/>
+        <image name="leftBtn" width="48" height="84"/>
+    </resources>
+</document>

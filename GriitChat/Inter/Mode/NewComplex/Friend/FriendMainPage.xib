@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FriendMainPage" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="borderFriend" destination="Pzs-n6-ScE" id="wVQ-d7-W3a"/>
+                <outlet property="borderHistory" destination="NO5-Kw-3Jx" id="gS0-1p-Mca"/>
+                <outlet property="btnFriend" destination="vSh-Kk-zCb" id="VEd-w7-img"/>
+                <outlet property="btnHistory" destination="gQ8-oG-Wp7" id="peL-Q3-XSL"/>
+                <outlet property="contentView" destination="HaQ-qg-rDD" id="4W8-a5-aT8"/>
+                <outlet property="imgFriend" destination="tZc-Vy-ldZ" id="REq-wc-CRU"/>
+                <outlet property="imgHistory" destination="29K-al-zK8" id="hn7-K0-Umb"/>
+                <outlet property="scrollPager" destination="peN-et-FdD" id="gHZ-TK-9Lf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HaQ-qg-rDD">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSh-Kk-zCb">
+                    <rect key="frame" x="23" y="30" width="142.5" height="33.5"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="18"/>
+                    <inset key="contentEdgeInsets" minX="35" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="dm">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onBtnFriend:" destination="-1" eventType="touchUpInside" id="Umm-l3-yv0"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="friendIcon" translatesAutoresizingMaskIntoConstraints="NO" id="tZc-Vy-ldZ">
+                    <rect key="frame" x="27.5" y="36.5" width="26.5" height="20"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tZc-Vy-ldZ" secondAttribute="height" multiplier="9:7" id="8im-r7-IAz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQ8-oG-Wp7">
+                    <rect key="frame" x="211" y="30" width="142" height="33.5"/>
+                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="18"/>
+                    <inset key="contentEdgeInsets" minX="35" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="History">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onBtnHistory:" destination="-1" eventType="touchUpInside" id="EM3-cx-eKL"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="historyIcon" translatesAutoresizingMaskIntoConstraints="NO" id="29K-al-zK8">
+                    <rect key="frame" x="221" y="36.5" width="21" height="20.5"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="29K-al-zK8" secondAttribute="height" multiplier="21:20" id="Ue2-gn-MgN"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OdN-pw-h0r">
+                    <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="OdN-pw-h0r" secondAttribute="height" multiplier="7.65" id="2RX-68-Gqv"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zdn-L0-I6B">
+                    <rect key="frame" x="-0.5" y="667" width="375" height="333.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="peN-et-FdD" customClass="ScrollPager" customModule="GriitChat" customModuleProvider="target">
+                    <rect key="frame" x="-2" y="68.5" width="379" height="549.5"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pzs-n6-ScE">
+                    <rect key="frame" x="23" y="59.5" width="142.5" height="3"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="x3x-gZ-ky1"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NO5-Kw-3Jx">
+                    <rect key="frame" x="211" y="60" width="142" height="3"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="iVL-kM-sAu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.1647058824" green="0.72941176470000002" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vSh-Kk-zCb" firstAttribute="centerX" secondItem="YFs-74-Tuf" secondAttribute="centerX" multiplier="0.5" id="1ki-Qu-fUQ"/>
+                <constraint firstItem="29K-al-zK8" firstAttribute="centerY" secondItem="gQ8-oG-Wp7" secondAttribute="centerY" id="3uo-Rd-5A3"/>
+                <constraint firstItem="gQ8-oG-Wp7" firstAttribute="height" secondItem="vSh-Kk-zCb" secondAttribute="height" id="8aw-pA-dKg"/>
+                <constraint firstItem="vSh-Kk-zCb" firstAttribute="height" secondItem="HaQ-qg-rDD" secondAttribute="height" multiplier="0.05" id="AKg-DZ-A2N"/>
+                <constraint firstItem="tZc-Vy-ldZ" firstAttribute="height" secondItem="vSh-Kk-zCb" secondAttribute="height" multiplier="0.6" id="BWp-WL-yNC"/>
+                <constraint firstItem="gQ8-oG-Wp7" firstAttribute="centerY" secondItem="vSh-Kk-zCb" secondAttribute="centerY" id="Cva-Jg-zBE"/>
+                <constraint firstItem="Pzs-n6-ScE" firstAttribute="width" secondItem="vSh-Kk-zCb" secondAttribute="width" id="DDM-Mn-OWd"/>
+                <constraint firstItem="OdN-pw-h0r" firstAttribute="trailing" secondItem="YFs-74-Tuf" secondAttribute="trailing" id="GuU-V4-wzy"/>
+                <constraint firstItem="vSh-Kk-zCb" firstAttribute="top" secondItem="YFs-74-Tuf" secondAttribute="top" constant="10" id="KnV-U2-HWa"/>
+                <constraint firstItem="peN-et-FdD" firstAttribute="trailing" secondItem="YFs-74-Tuf" secondAttribute="trailing" constant="2" id="MjP-y7-xoA"/>
+                <constraint firstItem="OdN-pw-h0r" firstAttribute="top" secondItem="peN-et-FdD" secondAttribute="bottom" id="Mvu-bi-iar"/>
+                <constraint firstItem="zdn-L0-I6B" firstAttribute="top" secondItem="OdN-pw-h0r" secondAttribute="bottom" id="OjO-3Z-gq4"/>
+                <constraint firstItem="tZc-Vy-ldZ" firstAttribute="centerY" secondItem="vSh-Kk-zCb" secondAttribute="centerY" id="QXP-13-cyC"/>
+                <constraint firstItem="Pzs-n6-ScE" firstAttribute="centerX" secondItem="vSh-Kk-zCb" secondAttribute="centerX" id="SaZ-Z3-UOq"/>
+                <constraint firstItem="tZc-Vy-ldZ" firstAttribute="leading" secondItem="vSh-Kk-zCb" secondAttribute="leading" constant="4" id="c9b-AV-GGX"/>
+                <constraint firstItem="NO5-Kw-3Jx" firstAttribute="centerX" secondItem="gQ8-oG-Wp7" secondAttribute="centerX" id="cTc-aW-Fj0"/>
+                <constraint firstItem="OdN-pw-h0r" firstAttribute="leading" secondItem="YFs-74-Tuf" secondAttribute="leading" id="d9e-eM-F1F"/>
+                <constraint firstItem="vSh-Kk-zCb" firstAttribute="width" secondItem="HaQ-qg-rDD" secondAttribute="width" multiplier="0.38" id="dAq-46-1Mx"/>
+                <constraint firstItem="gQ8-oG-Wp7" firstAttribute="width" secondItem="vSh-Kk-zCb" secondAttribute="width" id="enH-Ns-63V"/>
+                <constraint firstItem="29K-al-zK8" firstAttribute="leading" secondItem="gQ8-oG-Wp7" secondAttribute="leading" constant="10" id="fqH-eQ-C0M"/>
+                <constraint firstItem="zdn-L0-I6B" firstAttribute="width" secondItem="OdN-pw-h0r" secondAttribute="width" id="iBh-rl-QWs"/>
+                <constraint firstItem="Pzs-n6-ScE" firstAttribute="top" secondItem="tZc-Vy-ldZ" secondAttribute="bottom" constant="3" id="j4y-pO-Hcc"/>
+                <constraint firstItem="OdN-pw-h0r" firstAttribute="bottom" secondItem="YFs-74-Tuf" secondAttribute="bottom" id="j7d-et-12e"/>
+                <constraint firstItem="NO5-Kw-3Jx" firstAttribute="top" secondItem="29K-al-zK8" secondAttribute="bottom" constant="3" id="mGX-gK-Wxb"/>
+                <constraint firstItem="zdn-L0-I6B" firstAttribute="centerX" secondItem="OdN-pw-h0r" secondAttribute="centerX" id="mN7-Vp-eH1"/>
+                <constraint firstItem="peN-et-FdD" firstAttribute="leading" secondItem="YFs-74-Tuf" secondAttribute="leading" constant="-2" id="pI1-HI-zXy"/>
+                <constraint firstItem="29K-al-zK8" firstAttribute="height" secondItem="gQ8-oG-Wp7" secondAttribute="height" multiplier="0.6" id="peu-Nl-j83"/>
+                <constraint firstItem="gQ8-oG-Wp7" firstAttribute="centerX" secondItem="YFs-74-Tuf" secondAttribute="centerX" multiplier="1.5" id="pgR-am-GiU"/>
+                <constraint firstItem="zdn-L0-I6B" firstAttribute="height" secondItem="HaQ-qg-rDD" secondAttribute="height" multiplier="0.5" id="wAb-KC-DzZ"/>
+                <constraint firstItem="peN-et-FdD" firstAttribute="top" secondItem="vSh-Kk-zCb" secondAttribute="bottom" constant="5" id="xSf-Ow-bJA"/>
+                <constraint firstItem="NO5-Kw-3Jx" firstAttribute="width" secondItem="gQ8-oG-Wp7" secondAttribute="width" id="z2J-0O-aZo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="YFs-74-Tuf"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="friendIcon" width="88" height="80"/>
+        <image name="historyIcon" width="96" height="64"/>
+    </resources>
+</document>

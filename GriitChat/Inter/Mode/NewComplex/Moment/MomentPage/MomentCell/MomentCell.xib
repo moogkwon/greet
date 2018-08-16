@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MomentCell" id="gTV-IL-0wX" customClass="MomentCell" customModule="GriitChat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="217" height="291"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="217" height="291"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dU1-5e-rdA">
+                        <rect key="frame" x="0.0" y="0.0" width="217" height="291"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11hrs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZ2-LG-ahg">
+                        <rect key="frame" x="184.5" y="267.5" width="22.5" height="13.5"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dU1-5e-rdA" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Of-6E-G3F"/>
+                <constraint firstItem="dU1-5e-rdA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="CQ3-Iu-3lv"/>
+                <constraint firstAttribute="trailing" secondItem="EZ2-LG-ahg" secondAttribute="trailing" constant="10" id="WYe-aY-jFt"/>
+                <constraint firstAttribute="bottom" secondItem="dU1-5e-rdA" secondAttribute="bottom" id="Z0G-kI-Qq5"/>
+                <constraint firstAttribute="bottom" secondItem="EZ2-LG-ahg" secondAttribute="bottom" constant="10" id="bnh-1T-qZq"/>
+                <constraint firstAttribute="trailing" secondItem="dU1-5e-rdA" secondAttribute="trailing" id="kFX-ku-PeO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="217" height="291"/>
+            <connections>
+                <outlet property="imgMoment" destination="dU1-5e-rdA" id="0bc-kY-1oe"/>
+                <outlet property="lblRemainHours" destination="EZ2-LG-ahg" id="fLG-Nl-8BQ"/>
+            </connections>
+            <point key="canvasLocation" x="74.5" y="176.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

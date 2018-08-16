@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FriendPage" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="xxx-9K-Pvo" id="xXk-VL-ceN"/>
+                <outlet property="innerView" destination="oAU-ec-9zw" id="pxg-zJ-Fiu"/>
+                <outlet property="mapContainer" destination="5CJ-yE-DYn" id="fk1-kT-kK9"/>
+                <outlet property="mapView" destination="eFZ-eQ-IdC" id="hrz-aM-HCH"/>
+                <outlet property="tblConstraint" destination="Yvu-Mx-djW" id="QTS-2Q-d1m"/>
+                <outlet property="tblFriendBox" destination="3x6-Vi-JFd" id="jqN-m8-50N"/>
+                <outlet property="tblFriends" destination="XZ0-yB-htH" id="917-zz-yls"/>
+                <outlet property="tblSearchBar" destination="YuL-8A-jv5" id="ntk-Ha-qgl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" bounces="NO" showsHorizontalScrollIndicator="NO" id="xxx-9K-Pvo">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="699"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAU-ec-9zw">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="587.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFZ-eQ-IdC">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="187.5"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CJ-yE-DYn">
+                                    <rect key="frame" x="9" y="5" width="356.5" height="178"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_fullsize" translatesAutoresizingMaskIntoConstraints="NO" id="7ka-DD-4Hv">
+                                            <rect key="frame" x="0.0" y="0.0" width="356.5" height="178"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="7ka-DD-4Hv" firstAttribute="leading" secondItem="5CJ-yE-DYn" secondAttribute="leading" id="5ux-xC-k38"/>
+                                        <constraint firstAttribute="trailing" secondItem="7ka-DD-4Hv" secondAttribute="trailing" id="Sz7-cJ-x78"/>
+                                        <constraint firstAttribute="width" secondItem="5CJ-yE-DYn" secondAttribute="height" multiplier="2" id="gXL-aE-vup"/>
+                                        <constraint firstAttribute="bottom" secondItem="7ka-DD-4Hv" secondAttribute="bottom" id="q1Y-z5-Bbt"/>
+                                        <constraint firstItem="7ka-DD-4Hv" firstAttribute="top" secondItem="5CJ-yE-DYn" secondAttribute="top" id="w3m-tJ-a8Q"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.16470588235294117" green="0.72941176470588232" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="5CJ-yE-DYn" firstAttribute="centerY" secondItem="eFZ-eQ-IdC" secondAttribute="centerY" id="0fy-ps-eWc"/>
+                                <constraint firstAttribute="width" secondItem="eFZ-eQ-IdC" secondAttribute="height" multiplier="2" id="6JW-O0-MyY"/>
+                                <constraint firstItem="5CJ-yE-DYn" firstAttribute="width" secondItem="eFZ-eQ-IdC" secondAttribute="width" multiplier="0.95" id="TeH-s7-UDz"/>
+                                <constraint firstItem="5CJ-yE-DYn" firstAttribute="centerX" secondItem="eFZ-eQ-IdC" secondAttribute="centerX" id="kRb-Vz-ZiY"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3x6-Vi-JFd">
+                            <rect key="frame" x="-0.5" y="187.5" width="375" height="400"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XZ0-yB-htH">
+                                    <rect key="frame" x="-0.5" y="0.0" width="375" height="400"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="400" id="Yvu-Mx-djW"/>
+                                    </constraints>
+                                    <searchBar key="tableHeaderView" contentMode="redraw" placeholder="griiter search" id="YuL-8A-jv5">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                    </searchBar>
+                                </tableView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="XZ0-yB-htH" firstAttribute="height" secondItem="3x6-Vi-JFd" secondAttribute="height" id="0SQ-Yj-SQ8"/>
+                                <constraint firstItem="XZ0-yB-htH" firstAttribute="width" secondItem="3x6-Vi-JFd" secondAttribute="width" id="1Cf-6J-gfW"/>
+                                <constraint firstItem="XZ0-yB-htH" firstAttribute="top" secondItem="3x6-Vi-JFd" secondAttribute="top" id="Xl8-UD-nLG"/>
+                                <constraint firstItem="XZ0-yB-htH" firstAttribute="centerX" secondItem="3x6-Vi-JFd" secondAttribute="centerX" id="slp-SJ-FjL"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3x6-Vi-JFd" firstAttribute="top" secondItem="eFZ-eQ-IdC" secondAttribute="bottom" id="4bA-Hz-SmC"/>
+                        <constraint firstItem="eFZ-eQ-IdC" firstAttribute="top" secondItem="oAU-ec-9zw" secondAttribute="top" id="6Rt-QB-p1m"/>
+                        <constraint firstItem="3x6-Vi-JFd" firstAttribute="centerX" secondItem="oAU-ec-9zw" secondAttribute="centerX" id="CQd-Lg-Ajj"/>
+                        <constraint firstAttribute="bottom" secondItem="3x6-Vi-JFd" secondAttribute="bottom" id="KyW-OE-qca"/>
+                        <constraint firstItem="eFZ-eQ-IdC" firstAttribute="centerX" secondItem="oAU-ec-9zw" secondAttribute="centerX" id="QOu-Qn-8kZ"/>
+                        <constraint firstItem="3x6-Vi-JFd" firstAttribute="width" secondItem="oAU-ec-9zw" secondAttribute="width" id="d8K-1J-j8w"/>
+                        <constraint firstItem="eFZ-eQ-IdC" firstAttribute="width" secondItem="oAU-ec-9zw" secondAttribute="width" id="d95-0f-UyL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="oAU-ec-9zw" firstAttribute="top" secondItem="xxx-9K-Pvo" secondAttribute="top" id="BL0-tQ-bOb"/>
+                <constraint firstItem="oAU-ec-9zw" firstAttribute="centerX" secondItem="xxx-9K-Pvo" secondAttribute="centerX" id="Wgg-Q2-ujL"/>
+                <constraint firstItem="oAU-ec-9zw" firstAttribute="width" secondItem="xxx-9K-Pvo" secondAttribute="width" id="ugb-aq-gNH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-896.5" y="-174.5"/>
+        </scrollView>
+    </objects>
+    <resources>
+        <image name="map_fullsize" width="1500" height="714"/>
+    </resources>
+</document>

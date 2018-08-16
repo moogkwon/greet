@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InstagramButton" customModule="GriitChat" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="Sv0-Ue-mew"/>
+                <outlet property="imgInstagram" destination="u6z-uT-kEf" id="XWy-fL-IqN"/>
+                <outlet property="progBack" destination="Ecn-gS-oRc" id="ygg-De-SMu"/>
+                <outlet property="progWhiteBack" destination="TB6-FX-1QP" id="v8o-ni-3vn"/>
+                <outlet property="realProgress" destination="hY9-7A-4vY" id="IYR-tk-irI"/>
+                <outlet property="viewDisabled" destination="lQh-5g-ul4" id="lbJ-EG-1YN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQh-5g-ul4">
+                    <rect key="frame" x="66" y="212" width="243.5" height="243.5"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" notEnabled="YES"/>
+                    </accessibility>
+                </view>
+                <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ecn-gS-oRc" customClass="SFCircleGradientView">
+                    <rect key="frame" x="66.5" y="212.5" width="243.5" height="243.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Ecn-gS-oRc" secondAttribute="height" id="gb8-Ck-k09"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                            <color key="value" red="0.2666666667" green="0.69803921570000005" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                            <color key="value" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="endAngle">
+                            <real key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TB6-FX-1QP" customClass="SFCircleGradientView">
+                    <rect key="frame" x="68.5" y="214.5" width="239.5" height="239.5"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" notEnabled="YES"/>
+                    </accessibility>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="progress">
+                            <real key="value" value="18"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="startAngle">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="endAngle">
+                            <real key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hY9-7A-4vY" customClass="SFCircleGradientView">
+                    <rect key="frame" x="68.5" y="214.5" width="240" height="239.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_white" translatesAutoresizingMaskIntoConstraints="NO" id="u6z-uT-kEf">
+                    <rect key="frame" x="128.5" y="274.5" width="119.5" height="119.5"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="u6z-uT-kEf" secondAttribute="height" multiplier="1:1" id="BUt-7L-abj"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" notEnabled="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="TB6-FX-1QP" firstAttribute="top" secondItem="Ecn-gS-oRc" secondAttribute="top" constant="2" id="0pY-jq-XyP"/>
+                <constraint firstItem="u6z-uT-kEf" firstAttribute="centerY" secondItem="TB6-FX-1QP" secondAttribute="centerY" id="2HS-eE-4df"/>
+                <constraint firstItem="hY9-7A-4vY" firstAttribute="height" secondItem="TB6-FX-1QP" secondAttribute="height" id="5LE-T2-9Sv"/>
+                <constraint firstItem="lQh-5g-ul4" firstAttribute="centerX" secondItem="Ecn-gS-oRc" secondAttribute="centerX" id="8VH-o6-vEL"/>
+                <constraint firstItem="Ecn-gS-oRc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8xQ-bu-LBI"/>
+                <constraint firstItem="TB6-FX-1QP" firstAttribute="leading" secondItem="Ecn-gS-oRc" secondAttribute="leading" constant="2" id="Geb-yg-pt7"/>
+                <constraint firstItem="Ecn-gS-oRc" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MD1-Jt-VgS"/>
+                <constraint firstItem="lQh-5g-ul4" firstAttribute="centerY" secondItem="Ecn-gS-oRc" secondAttribute="centerY" id="OHA-rH-6Ui"/>
+                <constraint firstItem="lQh-5g-ul4" firstAttribute="height" secondItem="Ecn-gS-oRc" secondAttribute="height" id="PfT-uC-quQ"/>
+                <constraint firstItem="u6z-uT-kEf" firstAttribute="centerX" secondItem="TB6-FX-1QP" secondAttribute="centerX" id="To4-EL-GhP"/>
+                <constraint firstItem="Ecn-gS-oRc" firstAttribute="trailing" secondItem="TB6-FX-1QP" secondAttribute="trailing" constant="2" id="bYr-h7-LDb"/>
+                <constraint firstItem="hY9-7A-4vY" firstAttribute="centerX" secondItem="Ecn-gS-oRc" secondAttribute="centerX" id="dFg-Ma-xHP"/>
+                <constraint firstItem="Ecn-gS-oRc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.65" id="oSh-ho-iLP"/>
+                <constraint firstItem="u6z-uT-kEf" firstAttribute="width" secondItem="TB6-FX-1QP" secondAttribute="width" multiplier="0.5" id="pMR-VR-qHO"/>
+                <constraint firstItem="TB6-FX-1QP" firstAttribute="bottom" secondItem="Ecn-gS-oRc" secondAttribute="bottom" constant="-2" id="sHE-52-Tsh"/>
+                <constraint firstItem="lQh-5g-ul4" firstAttribute="width" secondItem="Ecn-gS-oRc" secondAttribute="width" id="tb0-qe-PyM"/>
+                <constraint firstItem="hY9-7A-4vY" firstAttribute="centerY" secondItem="Ecn-gS-oRc" secondAttribute="centerY" id="tpK-jT-bkL"/>
+                <constraint firstItem="hY9-7A-4vY" firstAttribute="width" secondItem="TB6-FX-1QP" secondAttribute="width" id="vCE-xb-cCf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="instagram_white" width="82" height="82"/>
+    </resources>
+</document>

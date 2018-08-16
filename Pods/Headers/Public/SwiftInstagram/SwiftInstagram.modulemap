@@ -1,0 +1,6 @@
+module SwiftInstagram {
+  umbrella header "SwiftInstagram-umbrella.h"
+
+  export *
+  module * { export * }
+}

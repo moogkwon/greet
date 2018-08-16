@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in SelectiveProfileViewer.createRingtonMark(remainSec:):SelectiveProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.callingRemainSec">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.startRequest():SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.requestState">
+            </PersistentString>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LogPhoneViewController.onGenerateCodeWithPhoneNumberResponse(message:):LogPhoneViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "smsCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.onActive():SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.requestState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Instagram.request&lt;A&gt;(_:method:parameters:success:failure:):Instagram.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(urlRequest)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.viewWillAppear(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.object(forKey: UserKey.IsSignup)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.visibleControls(visible:):MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo! [&quot;instagranName&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingPage.layoutSubviews():SettingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds">
+            </PersistentString>
+            <PersistentString
+               value = "debugPrint(Extern.transMng.userInfo[&quot;photoUrl&quot;])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingPage.setProfilePhoto():SettingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.transMng.userInfo? [&quot;photoUrl&quot;] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onRecvMsg(message:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(message [&quot;sessionId&quot;] as! Int)">
+            </PersistentString>
+            <PersistentString
+               value = "message [&quot;id&quot;] as! String">
+            </PersistentString>
+            <PersistentString
+               value = "debugPrint(message)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomLoadingPage.onCompleteLoading():RandomLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.shouldPerformSegue(withIdentifier:sender:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.transMng">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.onSetLocalVideoView(view:):MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "isReceiveRemoteVideo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ToolbarView.layoutSubviews():ToolbarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curTabName">
+            </PersistentString>
+            <PersistentString
+               value = "button.bounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in AllowDeviceViewController.locationManager(_:didUpdateLocations:):AllowDeviceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(placemark.isoCountryCode as! String)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.viewWillAppear(_:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "accountKit?.currentAccessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onSetSessionId(_:):TransMng.swift">
+      </ContextState>
+      <ContextState
+         contextName = "UploadVideoTemplateViewController.onUploadVideo(result:message:):UploadVideoTemplateViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(message)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.onBtnLoginWithInstagram(_:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingPage.observeValue(forKeyPath:of:change:context:):SettingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC.view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.playerItemReadyToPlay(_:):SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.gotoPage(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomInitPage.onDeactive():RandomInitPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.getCurrentIndex(">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoTrimViewController.viewDidLoad():VideoTrimViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CachingPlayerItem.ResourceLoaderDelegate.haveEnoughDataToFulfillRequest(_:):CachingPlayerItem.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "songDataUnwrapped.subdata(in: Range(uncheckedBounds: (currentOffset, currentOffset + bytesToRespond)))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewer.resizePlayerLayer(frame:):ProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avPlayerLayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatCoreViewer.onStopCommunication(message:):ChatCoreViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(message)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RecorderButton.tapPressed(sender:):RecorderButton.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isBtnEnabled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.addFriend():MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(lat as! NSString).floatValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.layoutSubviews():MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onGetUserResponse(message:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(message)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransCenter.sendMsg(message:):TransCenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.SOCKET">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.visibleCallingView(isVisible:):SelectiveProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.skinCallingView.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.setLabels():SelectiveProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC">
+            </PersistentString>
+            <PersistentString
+               value = "URL(string: &quot;&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "country.flag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onStartRandomResponse(message:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.randomDelegate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AllowDeviceViewController.locationManager(_:didUpdateLocations:):AllowDeviceViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "print(&quot;Current location: \(currentLocation)&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CupManager.startUseCup():CupManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curDateTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginViewController.viewWillAppear(_:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(accountKit?.currentAccessToken)">
+            </PersistentString>
+            <PersistentString
+               value = "self.phoneNumber">
+            </PersistentString>
+            <PersistentString
+               value = "account?.accountID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UploadVideoViewController.imagePickerController(_:didFinishPickingMediaWithInfo:):UploadVideoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(info[UIImagePickerControllerMediaURL])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.onActive():SelectiveProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static UIImage.animatedImageWithSource(_:):UIImage+Gif.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filter!.outputImage">
+            </PersistentString>
+            <PersistentString
+               value = "filter.outputImage!.extent">
+            </PersistentString>
+            <PersistentString
+               value = "filter!.outputImage!.extent">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SplashViewController.isAbleToLogin():SplashViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.object(forKey: UserKey.IsSignup)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomInitPage.onActive():RandomInitPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.camView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.onRecvBinary(data:):SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginViewController.onLogin(result:message:):LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "afterProcess">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginViewController.loginWithInstagram():LoginViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(userInfo.profilePicture.absoluteString)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CupManager.init():CupManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: UserKey.CupCount)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.onCompleteLoading():SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.onScroll(currentPage:offset:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupViewController.onBtnSignup(_:):SignupViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "phoneNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.sortFriendWithOnlineStatus():FriendPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "friendItems">
+            </PersistentString>
+            <PersistentString
+               value = "onlineStatus! [&quot;234&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onLoginResponse(message:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(lat as! NSString).floatValue">
+            </PersistentString>
+            <PersistentString
+               value = "debugPrint(message)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.imagePickerController(_:didFinishPickingMediaWithInfo:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cropRect.origin.x">
+            </PersistentString>
+            <PersistentString
+               value = "info [UIImagePickerControllerReferenceURL]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.onPause():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "chattingPage.isActive">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewer.playerItemReadyToPlay(_:):ProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "playerItem.presentationSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.onActive():MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo[&quot;playerItem&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+            <PersistentString
+               value = "chatMode">
+            </PersistentString>
+            <PersistentString
+               value = "profileViewer.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "videoPath">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatCoreViewer.onActive():ChatCoreViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "KMSPeer.releasePeer():KMSPeer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "webRTCPeer?.activeConnections()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginViewController.onBtnLoginWithInstagram(_:):LoginViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Instagram.request&lt;A&gt;(_:method:parameters:success:failure:):Instagram.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(data)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.getUserInfos(mode:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.transCenter.isConnected">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static ToolbarView.createToolbarView(controller:):ToolbarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UploadVideoTemplateViewController.compressFile(urlToCompress:outputURL:completion:):UploadVideoTemplateViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videoTrack.naturalSize.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveLoadingPage.onUserInfoReceived(result:data:message:):SelectiveLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+            <PersistentString
+               value = "debugPrint(data)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.onClickInstagram(indexPath:):FriendPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(friendItems [indexPath.row])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MainViewController.viewDidLayoutSubviews():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.willStartChat(userInfo:userType:state:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "chattingPage.userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CupManager.onTimer(timer:):CupManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curDateTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.isConnected():TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.userStatus">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in MainChatViewer.onToggleResize(_:):MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.viewRemote">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ToolbarView.slideToolbar(ratio:direction:):ToolbarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame">
+            </PersistentString>
+            <PersistentString
+               value = "window.safeAreaInsets.bottom">
+            </PersistentString>
+            <PersistentString
+               value = "orgRect?.origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "parent?.view.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.processSelectedItem(friend:):FriendPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(friend)">
+            </PersistentString>
+            <PersistentString
+               value = "pinList [selectedFriend!.phoneNumber!]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

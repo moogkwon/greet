@@ -1,0 +1,6 @@
+module Pods_GriitChat {
+  umbrella header "Pods-GriitChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

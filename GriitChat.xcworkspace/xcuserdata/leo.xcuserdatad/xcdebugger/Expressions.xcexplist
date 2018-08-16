@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MomentPage.collectionView(_:numberOfItemsInSection:):MomentPage.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.addRelationPages(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navItem [0]![i]">
+            </PersistentString>
+            <PersistentString
+               value = "mainPager.getPageIndex()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomLoadingPage.onStartRandomResponse(result:data:):RandomLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatLoadWithCam.onGetUserInfoWithPhoneNumber(result:data:):ChatLoadWithCam.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(data)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.tableView(_:numberOfRowsInSection:):FriendPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.friendItems.count">
+            </PersistentString>
+            <PersistentString
+               value = "friendItems">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ChatCoreViewer.onGenerateOffer(offer:):ChatCoreViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.userType">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.gotoPage(_:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainPager.printPageNames()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.unFriend(indexPath:):FriendPage.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.imagePickerController(_:didFinishPickingMediaWithInfo:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "strBase64.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ChatCoreViewer.onStopCommunication(message:):ChatCoreViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.afterChatCompletion">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainChatViewer.onActive():MainChatViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC.mainPager.printPageNames()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.willStartChat(userInfo:userType:state:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(userInfo)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RandomLoadingPage.onActive():RandomLoadingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.mainVC?.mainState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransMng.onRecvMsg(message:):TransMng.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.userStatus">
+            </PersistentString>
+            <PersistentString
+               value = "message [&quot;data&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.onActive():SelectiveProfileViewer.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.onScroll(scrDirection:):MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "curPageState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ScrollPager.scrollToIndex(index:duration:completion:):ScrollPager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contentOffset.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewer.observeTime(elapsedTime:):ProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avPlayerLayer.videoRect">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SwipeViewController.setFirstViewController(_:):SwipeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Extern.chat_userInfo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ToolbarView.layoutSubviews():ToolbarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(bottomBorder.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MomentPage.onActive():MomentPage.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FriendPage.onActive():FriendPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DBFriends.removeWithPhoneNumber(phoneNumber:):DBFriends.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(itemFetch.predicate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IncomingList.addView(phoneNumber:view:):IncomingList.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(view.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScrollPager.scrollViewDidScroll(_:):ScrollPager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "printPageNames()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingPage.layoutSubviews():SettingPage.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(Extern.transMng.userInfo)">
+            </PersistentString>
+            <PersistentString
+               value = "profileView.videoHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainViewController.viewDidLoad():MainViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "friend.phoneNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.onCallingResponse(data:):SelectiveProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parentVC">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IncomingList.layoutSubviews():IncomingList.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(view?.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ToolbarView.setActive(tabName:):ToolbarView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "button.bounds.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProfileViewer.createProfileViewer(videoPath:):ProfileViewer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(avPlayerLayer.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScrollPager.scrollToIndex(index:duration:completion:):ScrollPager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.subviews [1] as! ViewPage">
+            </PersistentString>
+            <PersistentString
+               value = "printPageNames()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in CalleeViewController.onChangeIncomingList():CalleeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(incallView.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MomentCell.initElements():MomentCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ScrollPager.insertPage(page:position:scrollTo:duration:completion:):ScrollPager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "getPageIndex()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingPage.updateConstraints():SettingPage.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DBFriends.checkWithPhoneNumber(phoneNumber:):DBFriends.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "debugPrint(itemFetch.predicate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SelectiveProfileViewer.setLabels():SelectiveProfileViewer.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CalleeViewController.createIncomingList():CalleeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.incomingList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
